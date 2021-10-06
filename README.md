@@ -2,7 +2,7 @@
 
 This module creates a resource group, a VPC in that resource group, IAM Access Groups, and invites users to those Access Groups. This module configures the environment by using a JSON Object stored in Cloud Object Storage to allow users to configure and update complex environments as part of a catalog offering. 
 
-![GCAT Landing Zone](./.docs/gcat-landing.png)
+![GCAT Landing Zone](./landing_zone/.docs/gcat-landing-cos.png)
 
 ---
 
