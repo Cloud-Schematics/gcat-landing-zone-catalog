@@ -38,10 +38,6 @@ data ibm_cos_bucket_object cos_object {
   key             = var.object_name
 }
 
-output data {
-  value = jsondecode(data.ibm_cos_bucket_object.cos_object.body)
-}
-
 ##############################################################################
 
 
