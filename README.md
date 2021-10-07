@@ -129,6 +129,10 @@ Using [upload.sh](./upload.sh) allows users to create and update JSON objects in
 sh ./upload.sh <cos instance name> <cos bucket name> <object name> <file path>
 ```
 
+### Automatically Update Schematics Workspace
+
+Optionally a fifth parameter can be passed to [upload.sh](./upload.sh), the name of the schematics workspace created by a catalog entry. This will force an `apply` action to run in that workspace after a new object has been uploaded to COS.
+
 ---
 
 ## Access Groups

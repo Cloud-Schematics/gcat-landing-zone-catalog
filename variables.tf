@@ -4,11 +4,11 @@
 ##############################################################################
 
 # Comment this variable if running in schematics
-# variable ibmcloud_api_key {
-#   description = "The IBM Cloud platform API key needed to deploy IAM enabled resources"
-#   type        = string
-#   sensitive   = true
-# }
+variable ibmcloud_api_key {
+  description = "The IBM Cloud platform API key needed to deploy IAM enabled resources"
+  type        = string
+  sensitive   = true
+}
 
 # Comment out if not running in schematics
 variable TF_VERSION {
