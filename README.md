@@ -1,4 +1,4 @@
-# GCAT Landing Zone Catalog
+# Multi-tier landing zone with IAM and resource group access for a catalog offering
 
 This module creates a resource group, a VPC in that resource group, IAM Access Groups, and invites users to those Access Groups. This module configures the environment by using a JSON Object stored in Cloud Object Storage to allow users to configure and update complex environments as part of a catalog offering. 
 
